@@ -650,7 +650,7 @@ img {
 
 .modal-close-btn:hover >.modal-close-icon,
 .modal-close-btn:focus >.modal-close-icon {
-    fill: #404BBF;
+    fill: #FFFFFF;
 }
 
 
@@ -784,6 +784,7 @@ img {
     justify-content: center;
     fill: transparent;
 }
+
 
 
 .form-checkbox:checked+.checkbox-text .checkbox-icon {
