@@ -367,6 +367,8 @@ img {
 }
 
 .portfolio-item {
+    cursor: pointer;
+    border: 1px solid #f4f4fd;
     width: calc((100% - 48px) / 3);
     flex-shrink: 0;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -399,8 +401,6 @@ img {
 }
 
 .portfolio-item:hover {
-    cursor: pointer;
-    border: 1px solid #f4f4fd;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -716,7 +716,7 @@ img {
     left: 16px;
     transform: translateY(-50%);
     flex-shrink: 0;
-    fill: #4D5AE5;
+    fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
